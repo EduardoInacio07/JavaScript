@@ -120,3 +120,6 @@ console.log(lista)
 lista.splice(1,1)
 console.log(lista)
 
+const nomes = lista.map(p => p.nome)
+console.log(nomes)
+
